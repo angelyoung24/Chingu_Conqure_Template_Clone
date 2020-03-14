@@ -1,0 +1,255 @@
+* {
+  margin: auto;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #383e4c;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 2vw;
+}
+
+.navbar li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 1px solid #646d7c;
+  padding: 15px 25px;
+  margin: 0 2vh;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  background-color: #49505f;
+}
+
+.parallax {
+  background-image: url("img/pink_sky_unsplash.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-container {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 10vh;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+  margin: auto;
+  width: 25%;
+  padding: 150px;
+}
+
+.hero-text {
+  font-size: 25px;
+}
+
+#about {
+  height: 100%;
+  padding-top: 70px
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 70px
+}
+
+.card {
+  width: 30%;
+  height: 90%;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+.green {
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #428b29;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  padding: 0 20px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 14px;
+  text-align: left;
+  padding: 0 20px 35px;
+}
+
+.green-button {
+  background-color: #428b29;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.blue {
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #2186c1;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.blue-button {
+  background-color: #2186c1;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.red {
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #852516;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.red-button {
+  background-color: #852516;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.red-button:hover {
+  background: #C9302C;
+}
+
+.grey {
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: rgb(116, 114, 114);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px 32px;
+}
+
+.grey-button {
+  background-color: rgb(116, 114, 114);
+  border: none;
+  border-radius: 5%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.parallax2 {
+  background-image: url("img/mountain_night.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service-header {
+  color: #fff;
+  text-shadow: 2px 2px 2px #383e4c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10vh;
+  text-align: center;
+  margin: auto;
+  padding: 70px 0;
+}
+
+.service-text {
+  color: #fff;
+  font-size: 3vh;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+}
+
+.parallax3 {
+  background-color: #fff;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  background-image: url("img/bike_road.jpg");
+  opacity: 1;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.text {
+  border: none;
+  color: #000;
+  background-color:#fff;
+  height: 34px;
+  padding: 1px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+.textarea {
+  border: none;
+  width: 500px;
+  height: 300px;
+}
+
+.parallax5 {
+  background-color: #fff;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
