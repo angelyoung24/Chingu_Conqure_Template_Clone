@@ -75,6 +75,7 @@ a:hover {
   height: 90%;
   background-color: #f2f2f2;
   border: none;
+  flex: 0 1 24%;
 }
 
 .card img {
@@ -238,6 +239,7 @@ p {
 }
 
 .beach-img {
+  display: block;
   width: 100%;
 }
 
