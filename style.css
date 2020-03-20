@@ -56,6 +56,7 @@ a:hover {
 
 .hero-text {
   font-size: 25px;
+  text-align: center;
 }
 
 #about {
@@ -180,7 +181,7 @@ p {
 
 .parallax2 {
   background-image: url("img/mountain_night.jpg");
-  height: 500px;
+  height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -206,7 +207,7 @@ p {
 
 .parallax3 {
   background-color: #fff;
-  height: 1500px;
+  height: 1650px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -232,10 +233,19 @@ p {
 }
 
 .card-large {
-  width: 40%;
-  height: 50%;
+  display: block;
+  width: 90%;
   background-color: #f2f2f2;
   border: none;
+}
+
+.grey-two {
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: rgb(116, 114, 114);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  padding: 15px 32px;
 }
 
 .beach-img {
@@ -246,21 +256,39 @@ p {
 .parallax4 {
   background-image: url("img/bike_road.jpg");
   opacity: 1;
-  height: 500px;
+  height: 1000px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-form {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  
+.contact-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 2px #49505f;
+  font-size: 8vh;
+  text-align: center;
 }
 
-.text {
+.textbox {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-1, .text-2, .text-3, .textarea {
   border: none;
   color: #000;
   background-color:#fff;
@@ -271,9 +299,24 @@ form {
 }
 
 .textarea {
-  border: none;
-  width: 500px;
-  height: 300px;
+  width: ;
+}
+
+.form-button {
+  background: #262628 none repeat scroll 0 0;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.form-button:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+  
 }
 
 .parallax5 {
