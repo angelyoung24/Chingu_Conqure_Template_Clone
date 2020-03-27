@@ -102,6 +102,9 @@ p {
 }
 
 .green-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #428b29;
   border: none;
   border-radius: 5px;
@@ -109,7 +112,6 @@ p {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
 }
 
@@ -123,6 +125,9 @@ p {
 }
 
 .blue-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #2186c1;
   border: none;
   border-radius: 5px;
@@ -130,7 +135,6 @@ p {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
 }
 
@@ -144,6 +148,9 @@ p {
 }
 
 .red-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #852516;
   border: none;
   border-radius: 5px;
@@ -151,13 +158,13 @@ p {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
 }
 
 .red-button:hover {
   background: #C9302C;
 }
+
 
 .grey {
   font-family: Arial, Helvetica, sans-serif !important;
@@ -169,6 +176,9 @@ p {
 }
 
 .grey-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(116, 114, 114);
   border: none;
   border-radius: 5%;
@@ -207,7 +217,7 @@ p {
 
 .parallax3 {
   background-color: #fff;
-  height: 1650px;
+  height: 1540px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -222,6 +232,9 @@ p {
 }
 
 .white-btn {
+  display: flex;
+  justify-content: left;
+  align-items: left;
   background-color:#fff;
   border: 1px solid #777;
   border-radius: 5px;
@@ -230,6 +243,12 @@ p {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: none;
 }
 
 .card-large {
@@ -251,6 +270,17 @@ p {
 .beach-img {
   display: block;
   width: 100%;
+}
+
+.white-btn-two {
+  background-color:#fff;
+  border: 1px solid #777;
+  border-radius: 5px;
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .parallax4 {
